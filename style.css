@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+body {
+  background-image: url(avenger_bg.jpg);
+  background-size: cover;
+  background-position: center;
+  font-family: "Poppins", sans-serif;
+}
+
+canvas {
+  background-color: #fff;
+  margin-top: 30px;
+  border: 10px solid rgb(50, 223, 185);
+  border-radius: 30px;
+}
+
+h1 {
+  letter-spacing: 10px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
