@@ -41,7 +41,6 @@ window.addEventListener("keydown", my_keydown);
 
 function my_keydown(e) {
   keyPressed = e.keyCode;
-  keyPressed;
   if (e.shiftKey == true && keyPressed == "80") {
     block_image_width = block_image_width + 10;
     block_image_height = block_image_height + 10;
@@ -83,6 +82,7 @@ function my_keydown(e) {
     right();
   }
 }
+
 function up() {
   if (player_y >= 0) {
     player_y = player_y - block_image_height;
